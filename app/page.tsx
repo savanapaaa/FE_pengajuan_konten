@@ -596,7 +596,7 @@ export default function PelayananPublikKomprehensif() {
     setLoginError("")
 
     // Simple authentication (in real app, this would be API call)
-    if (loginData.username === "admin" && loginData.password === "admin123") {
+    if (loginData.username === "diskominfo" && loginData.password === "batu123") {
       setIsAdminLoggedIn(true)
       setIsLoginDialogOpen(false)
       setLoginData({ username: "", password: "" })
@@ -1570,7 +1570,7 @@ export default function PelayananPublikKomprehensif() {
                           </Button>
                         </div>
                       </form>
-                      <div className="mt-4 p-3 bg-gray-50 rounded-lg">
+                      {/* <div className="mt-4 p-3 bg-gray-50 rounded-lg">
                         <p className="text-xs text-gray-600">
                           <strong>Demo Credentials:</strong>
                           <br />
@@ -1578,7 +1578,7 @@ export default function PelayananPublikKomprehensif() {
                           <br />
                           ID: SUB67890DEF, PIN: 5678
                         </p>
-                      </div>
+                      </div> */}
                     </DialogContent>
                   </Dialog>
 
@@ -1634,7 +1634,7 @@ export default function PelayananPublikKomprehensif() {
                           </Button>
                         </div>
                       </form>
-                      <div className="mt-4 p-3 bg-gray-50 rounded-lg">
+                      {/* <div className="mt-4 p-3 bg-gray-50 rounded-lg">
                         <p className="text-xs text-gray-600">
                           <strong>Demo Credentials:</strong>
                           <br />
@@ -1642,7 +1642,7 @@ export default function PelayananPublikKomprehensif() {
                           <br />
                           Password: admin123
                         </p>
-                      </div>
+                      </div> */}
                     </DialogContent>
                   </Dialog>
                 </div>
