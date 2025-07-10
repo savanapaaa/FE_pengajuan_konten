@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Created with v0',
   generator: 'v0.dev',
   icons: {
-    icon: '/logo kominfo.svg', // atau '/favicon.ico'
+    icon: '/logo batu.png', // atau '/favicon.ico'
   },
 }
 

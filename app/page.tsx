@@ -1338,8 +1338,8 @@ export default function PelayananPublikKomprehensif() {
           <div className="flex justify-between items-center h-16 sm:h-20">
             <div className="flex items-center space-x-2 sm:space-x-4">
               <img
-                src="/logo batu.png"
-                alt="Logo Kota Batu"
+                src="/logo kominfo.svg"
+                alt="Logo kominfo"
                 className="h-12 w-auto"
               />
               <div>
